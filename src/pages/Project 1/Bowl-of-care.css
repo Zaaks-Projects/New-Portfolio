@@ -13,6 +13,7 @@ span{
 
 .information_section{
     margin: 50px;
+   
 }
 
 .information_section p{
@@ -45,6 +46,7 @@ span{
 
 .research_section{
     margin: 50px; 
+    background-image: url('./Bowl\ Of\ Care\ Background.png');
 }
 
 .line{
@@ -107,4 +109,22 @@ span{
 
 .competitors_list span{
     margin: 50px;
+}
+
+/* Define Phase */
+
+.define_phase h1{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.define_phase p{
+    margin-left: 50px;
+    line-height: 1.6;
+}
+
+.define_phase img{
+    width: 100%;
+    height: 100vh;
 }
