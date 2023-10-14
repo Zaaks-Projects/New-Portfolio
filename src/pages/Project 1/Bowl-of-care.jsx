@@ -1,6 +1,6 @@
 import React from "react"
 import './Bowl-of-care.css'
-import Persona from './persona.jpeg'
+import Background from './Background.jpg'
 
 const Bowl_of_care = () => {
     return (
@@ -68,6 +68,9 @@ const Bowl_of_care = () => {
             </div>
         </div>
         </section>
+        <div>
+            <img src={Background} alt="" />
+        </div>
         <section className="competitors">
             <h1>02. Competitor Analysis</h1>
             <div className="line2"></div>
@@ -102,14 +105,6 @@ const Bowl_of_care = () => {
                     <p>Inconsistent navigation, default language that isn't the country's first spoken tongue, and lack of feedback and descriptions.</p>
                 </div>
             </div>
-        </section>
-        <section className="define_phase">
-            <h1>03. Define Phase</h1>
-            <div className="line2"></div>
-            <p>
-            As part of our define phase we created personas, empathy maps, and customer journey maps to understand more about the user's problem. 
-            </p>
-            <img src={Persona} alt="" />
         </section>
         </>
         

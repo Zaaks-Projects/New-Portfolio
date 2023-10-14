@@ -13,6 +13,8 @@ span{
 
 .information_section{
     margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
    
 }
 
@@ -27,6 +29,8 @@ span{
 
 .project_overview{
     margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     grid-gap: 10px;
@@ -46,6 +50,8 @@ span{
 
 .research_section{
     margin: 50px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
     background-image: url('./Bowl\ Of\ Care\ Background.png');
 }
 
@@ -70,7 +76,7 @@ span{
 }
 
 .discover h1{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
 }
 
@@ -81,6 +87,11 @@ span{
 
 /* Competitor Section */
 
+.competitors{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
 .competitors h1{
     margin-left: 50px;
     margin-bottom: 20px;
@@ -111,7 +122,12 @@ span{
     margin: 50px;
 }
 
-/* Define Phase */
+img{
+    width: 100%;
+    min-height: 30vh;
+}
+
+/* Define Phase
 
 .define_phase h1{
     margin-left: 50px;
@@ -127,4 +143,4 @@ span{
 .define_phase img{
     width: 100%;
     height: 100vh;
-}
+} */
