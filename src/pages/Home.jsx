@@ -1,6 +1,6 @@
 import React from "react"
 import './Stylesheet.css'
-import About from "./About"
+import Work_Section from "./work-section"
 
 const Home = () => {
     return (
@@ -12,7 +12,7 @@ const Home = () => {
                 <button className="more_btn">Check It Out</button>
             </div>
         </div>
-        
+        < Work_Section />
         </>
     )
 }
