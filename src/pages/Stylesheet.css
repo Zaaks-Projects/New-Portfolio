@@ -70,3 +70,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+a{
+  text-decoration: none;
+}
+.project_btn{
+  border: 1px Solid #14B9FF; 
+  padding: 10px;
+  margin: 2px;
+}

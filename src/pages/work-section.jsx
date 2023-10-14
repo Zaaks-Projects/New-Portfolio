@@ -8,8 +8,8 @@ const Work_Section = () => {
                 <h1></h1>
             </div>
             <div class="grid-item grid2">
-                <a href="/bowl_of_care">View Project</a>
             </div>
+            <a href="/bowl_of_care" className="project_btn">View Project</a>
             <div class="grid-item grid3">
                 <h1></h1>
             </div>
