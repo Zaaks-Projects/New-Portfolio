@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About';
 import Work from './pages/Work';
 import Resume from './pages/Resume';
+import Bowl_of_care from './pages/Project 1/Bowl-of-care';
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
     case "/resume" :
       component = <Resume />
       break
+    case "/bowl_of_care" :
+      component = <Bowl_of_care/>
   }
   return (
     <>
