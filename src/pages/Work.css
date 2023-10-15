@@ -12,12 +12,13 @@
     margin: 20px;
 }
 
-h3{
+.grid-item h3{
     font-weight: lighter;
     color: #14B9FF;
 }
 
 .grid-container{
+    padding: 30px;
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
