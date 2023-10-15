@@ -218,6 +218,10 @@ textarea{
   margin-top: 30px;
 }
 
+.spacing p{
+  margin-bottom: 10px;
+}
+
 .skill_aquired{
   margin: 50px;
   margin-top: 100px;
@@ -234,6 +238,7 @@ textarea{
   font-weight: lighter;
   color: #14B9FF;
 }
+
 
 /* @keyframes gradientAnimation {
   0% {

@@ -1,5 +1,6 @@
 import React from "react"
 import './Stylesheet.css'
+import Footer from "./Footer"
 
 const About = () => {
     return (
@@ -54,11 +55,43 @@ const About = () => {
             <p>Jul 2021 - Aug 2021</p>
             </div>
         </div>
-        <div className="skill_aquired">
+        <div className="experience">
+            <div>
             <h1>
-                Skills
+                Softwares 
             </h1>
+            </div>
+            <div className="spacing">
+            <span>Designing and Prototyping</span>
+            <p>Skill 1</p>
+            <p>Skill 2</p>
+            <p>Skill 3</p>
+            <p>Skill 4</p>
+            <div className="line"></div>
+            <span>Wireframing and User Flows</span>
+            <p>Skill 5</p>
+            <p>Skill 6</p>
+            <p>Skill 7</p>
+            </div>
         </div>
+        <div className="experience">
+            <div>
+            <h1>
+                Key Skills
+            </h1>
+            </div>
+            <div className="spacing">
+            <p>Here are some of the skills that i have aquired through my journey</p>
+            <p>Skill 1</p>
+            <p>Skill 2</p>
+            <p>Skill 3</p>
+            <p>Skill 4</p>
+            <p>Skill 5</p>
+            <p>Skill 6</p>
+            <p>Skill 7</p>
+            </div>
+        </div>
+        < Footer/>
         </>
         
 
