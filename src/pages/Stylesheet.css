@@ -4,7 +4,6 @@
 *{
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
-    background-image: url('./images/Home\ Background.svg');
 }
 
 .hero_container{
@@ -167,7 +166,7 @@ textarea{
 /* Footer Section */
 
 /* About Section */
-.project_overview{
+.about_statement{
   margin: 50px;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -177,20 +176,64 @@ textarea{
   line-height: 1.6;
 }
 
-.project_overview h1{
+.about_statement h1{
+  margin-left: 100px;
   font-size: 25px;
   font-weight: lighter;
 }
 
-.project_overview span{
+.about_statement span{
   color: #14B9FF;
 }
 
-.project_overview p{
+.about_statement p{
   padding: 5px;
 }
 
+.experience{
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px;
+  line-height: 1.6;
+}
 
+.experience h1{
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #14B9FF;
+}
+
+.experience_heading{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.experience_heading_2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.skill_aquired{
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px;
+  line-height: 1.6;
+}
+
+.skill_aquired h1{
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #14B9FF;
+}
 
 /* @keyframes gradientAnimation {
   0% {
