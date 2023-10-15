@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
 *{
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
@@ -11,6 +13,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* background: linear-gradient(90deg, #ffffff, #0099cc, #ffffff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite; */
 
   }
   
@@ -24,7 +29,7 @@
   .more_btn{
     padding: 15px;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     background-color: #14B9FF;
     color: white;
@@ -91,9 +96,10 @@ a{
 }
 
 .work-section a{
+  text-decoration: none;
   background-color: #14B9FF;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
 }
 
@@ -112,6 +118,7 @@ a{
 /* Contact Section */
 .contact_me{
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 
@@ -120,3 +127,53 @@ a{
   flex-direction: column;
   align-items: center;
 }
+
+i {
+   padding: 5px;
+   color: #14B9FF;
+}
+
+input{
+  margin: 5px 0 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.2px solid #DADEE0;
+  width: 500px;
+
+}
+::placeholder{
+  color: #14B9FF;
+
+}
+
+textarea{
+  width: 500px;
+  padding: 10px;
+  border: 0.2px solid #DADEE0;
+  border-radius: 4px;
+  resize: none;
+}
+
+.contact_info{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact_info p{
+  padding: 5px;
+}
+
+/* Footer Section */
+
+
+
+
+
+/* @keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+} */

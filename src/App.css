@@ -8,6 +8,7 @@
 
 .nav{
   background-color: transparent;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +38,11 @@
   font-weight: bold;
 }
 
+.footer_info {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
 
 
 

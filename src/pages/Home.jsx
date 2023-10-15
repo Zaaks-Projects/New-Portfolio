@@ -2,6 +2,7 @@ import React from "react"
 import './Stylesheet.css'
 import Work_Section from "./work-section"
 import Contact_Section from "./contact_section"
+import Footer from "./Footer"
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
         </div>
         < Work_Section />
         < Contact_Section />
+        <Footer />
         </>
     )
 }
