@@ -1,6 +1,7 @@
 import React from "react"
 import './Stylesheet.css'
 import Work_Section from "./work-section"
+import Contact_Section from "./contact_section"
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             </div>
         </div>
         < Work_Section />
+        < Contact_Section />
         </>
     )
 }

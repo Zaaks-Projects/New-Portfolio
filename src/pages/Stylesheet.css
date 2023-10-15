@@ -32,7 +32,7 @@
     font-weight: bold;
   }
 
-  /* Work Section  */
+  /* Work Section 
   .grid-container {
     position: relative;
     display: grid;
@@ -73,13 +73,15 @@
 
 a{
   text-decoration: none;
-}
+} */
+
+
 /* .project_btn{
   
 } */
 
 
-/* Company Section */
+/* Work Section*/
 
 .work-section {
   display: flex;
@@ -105,4 +107,16 @@ a{
   height: 100%;
   object-fit: cover;
   margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact_me{
+  margin-top: 150px;
+}
+
+
+.Contact_header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
