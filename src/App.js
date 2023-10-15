@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Bowl_of_care from './pages/Project 1/Bowl-of-care';
+import Work from './pages/Work'
 
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
     case "/about" :
       component = <About />
       break
-    case "/" :
-      component = <Home />
+    case "/work" :
+      component = <Work />
       break
     case "/resume" :
       component = <Resume />

@@ -1,0 +1,31 @@
+.work-section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.work-section p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+h3{
+    font-weight: lighter;
+    color: #14B9FF;
+}
+
+.grid-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 3px; 
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
