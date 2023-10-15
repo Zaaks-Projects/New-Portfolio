@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './Navbar';
 import Home from './pages/Home'
 import About from './pages/About';
-import Work from './pages/Work';
 import Resume from './pages/Resume';
 import Bowl_of_care from './pages/Project 1/Bowl-of-care';
 
@@ -17,8 +16,8 @@ function App() {
     case "/about" :
       component = <About />
       break
-    case "/work" :
-      component = <Work />
+    case "/" :
+      component = <Home />
       break
     case "/resume" :
       component = <Resume />

@@ -8,7 +8,7 @@ import Dev from './images/devHelp.png'
 const Company_section = () => {
     return (
         <>
-        <div className="work-section">
+        <div className="work-section" id="Work">
             <div className="work-card">
                 <img src={Booka} alt="work 1" />
                 <p><a href="/bowl_of_care" className="project_btn">View Project</a></p>
