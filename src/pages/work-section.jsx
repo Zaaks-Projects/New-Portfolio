@@ -1,20 +1,29 @@
 import React from "react"
 import './Stylesheet.css'
+import Younglings from './images/younglings.png'
+import Booka from './images/Booka Ad.png'
+import BOC from './images/Bowl Of Care.png'
+import Dev from './images/devHelp.png'
 
-const Work_Section = () => {
+const Company_section = () => {
     return (
-        <div class="grid-container">
-            <div class="grid-item grid1">
-                <h1></h1>
+        <>
+        <div className="work-section">
+            <div className="work-card">
+                <img src={Booka} alt="work 1" />
+                <p><a href="/bowl_of_care" className="project_btn">View Project</a></p>
             </div>
-            <div class="grid-item grid2">
+            <div className="work-card">
+                <img src={BOC} alt="work 2" />
+                <p><a href="/bowl_of_care" className="project_btn">View Project</a></p>
             </div>
-            <a href="/bowl_of_care" className="project_btn">View Project</a>
-            <div class="grid-item grid3">
-                <h1></h1>
+            <div className="work-card">
+                <img src={Dev} alt="work 2" />
+                <p><a href="/bowl_of_care" className="project_btn">View Project</a></p>
             </div>
-    </div>
+        </div>
+        </>
     )
 }
 
-export default Work_Section;
+export default Company_section;
