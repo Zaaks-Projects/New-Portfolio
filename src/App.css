@@ -11,6 +11,7 @@
   background-color: transparent;
   left: 0;
   right: 0;
+  top: 0;
   display: flex;
   justify-content: center;
   z-index: 999;
@@ -28,6 +29,7 @@
   border-radius: 50px;
   box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.2);
   gap: 10px;
+  background-color: #ffffff;
 }
 
 .nav a{

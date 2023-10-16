@@ -93,6 +93,8 @@ a{
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+  margin-top: 50px;
+  /* scrollbar-width: 0px; */
 }
 
 .work-section a{
