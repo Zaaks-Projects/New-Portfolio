@@ -37,7 +37,7 @@ const Home = () => {
     left: mousePosition.x - 50,
     width: "100px",
     height: "100px",
-    borderRadius: "50%",
+    borderRadius: "461px",
     background: calculateGradient(),
     pointerEvents: "none",
     zIndex: -1,
