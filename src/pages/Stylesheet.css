@@ -32,8 +32,15 @@
   border: none;
   background-color: #14b9ff;
   color: white;
-  cursor: pointer;
+  /* cursor: pointer; */
   font-weight: bold;
+  transition: all 0.5s;
+}
+
+.more_btn:hover {
+  cursor: none;
+  background: #dadee0;
+  color: #14b9ff;
 }
 
 /* Work Section 
@@ -86,7 +93,6 @@ a{
   border: none;
   background-color: #14b9ff;
   color: white;
-  
 }
 
 .project_btn:hover {
