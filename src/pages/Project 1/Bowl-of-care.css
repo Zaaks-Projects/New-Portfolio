@@ -1,0 +1,146 @@
+span{
+    color: #14B9FF;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('./Bowl\ Of\ Care\ Header.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.information_section{
+    margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.information_section p{
+    padding-top: 5px;
+    line-height: 1.2;
+}
+.information_section span{
+    color: #14B9FF;
+    font-weight: bold;
+}
+
+.project_overview{
+    margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px;
+    line-height: 1.6;
+}
+
+.project_overview h1{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.project_overview span{
+    color: #14B9FF;
+}
+
+/* Research Section */
+
+.research_section{
+    margin: 50px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url('./Bowl\ Of\ Care\ Background.png');
+}
+
+.line{
+    border-top: 1px solid #14B9FF;
+    width: 90%;
+    padding-top: 10px;
+    margin:6px;
+    
+}
+
+.discover{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px;
+    line-height: 1.6;
+}
+
+.discover div{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.discover h1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.discover p{
+    padding-top: 10px;
+    margin: 10px;
+}
+
+/* Competitor Section */
+
+.competitors{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+.competitors h1{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.competitors p{
+    margin-left: 50px;
+    line-height: 1.6;
+}
+
+.line2{
+    border-top: 1px solid #14B9FF;
+    width: 90%;
+    padding-top: 10px;
+    margin:6px;
+    margin-left: 50px;
+}
+
+.competitors_list{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px;
+    line-height: 1.6;
+}
+
+.competitors_list span{
+    margin: 50px;
+}
+
+img{
+    width: 100%;
+    min-height: 30vh;
+}
+
+/* Define Phase
+
+.define_phase h1{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.define_phase p{
+    margin-left: 50px;
+    line-height: 1.6;
+}
+
+.define_phase img{
+    width: 100%;
+    height: 100vh;
+} */

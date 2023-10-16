@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+*{
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero_container{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(90deg, #ffffff, #0099cc, #ffffff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite; */
+
+  }
+  
+  .hero_container h1{
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: 3px;
+  }
+
+  .more_btn{
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #14B9FF;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  /* Work Section 
+  .grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 2px; 
+    width: 100%; 
+}
+
+.grid1 {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    background-image: url('../pages/images/Booka\ Ad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.grid2 {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    background-image: url('../pages/images/Bowl\ Of\ Care.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid3 {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-image: url('../pages/images/devHelp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+  text-decoration: none;
+} */
+
+
+/* .project_btn{
+  
+} */
+
+
+/* Work Section*/
+
+.work-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.work-section a{
+  text-decoration: none;
+  background-color: #14B9FF;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.work-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.work-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact_me{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+
+.Contact_header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+i {
+   padding: 5px;
+   color: #14B9FF;
+}
+
+input{
+  margin: 5px 0 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.2px solid #DADEE0;
+  width: 500px;
+
+}
+::placeholder{
+  color: #14B9FF;
+
+}
+
+textarea{
+  width: 500px;
+  padding: 10px;
+  border: 0.2px solid #DADEE0;
+  border-radius: 4px;
+  resize: none;
+}
+
+.contact_info{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact_info p{
+  padding: 5px;
+}
+
+/* Footer Section */
+
+/* About Section */
+.about_statement{
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px;
+  line-height: 1.6;
+}
+
+.about_statement h1{
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.about_statement span{
+  color: #14B9FF;
+}
+
+.about_statement p{
+  padding: 5px;
+}
+
+.experience{
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px;
+  line-height: 1.6;
+}
+
+.experience h1{
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #14B9FF;
+}
+
+.experience_heading{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.experience_heading_2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.spacing p{
+  margin-bottom: 10px;
+}
+
+.skill_aquired{
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px;
+  line-height: 1.6;
+}
+
+.skill_aquired h1{
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #14B9FF;
+}
+
+
+/* @keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+} */
