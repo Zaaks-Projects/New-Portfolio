@@ -4,7 +4,7 @@ import './Work.css'
 const Work = () => {
     return (
         <>
-        <h1 className="work-section">Things that i have worked on so far</h1>
+        <h1 className="work-section">Things that I have worked on so far</h1>
         <p className="work-section">These are all the projects that i have created over the course of my internships and projects that i created as part of my challenges with candidates i spent time with</p>
         <p className="work-section">Throughout my time creating these design, here's what i learn't</p>
         <div className="grid-container">

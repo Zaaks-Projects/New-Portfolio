@@ -1,44 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
-*{
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
-    
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
 }
 
-.hero_container{
-    width: 100%;
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* background: linear-gradient(90deg, #ffffff, #0099cc, #ffffff);
-    background-size: 200% 200%;
-    animation: gradientAnimation 10s ease infinite; */
+.hero_container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(90deg, #ffffff, #0099cc, #ffffff);
+  background-size: 200% 200%;
+  animation: gradientAnimation 10s ease infinite; */
+}
 
-  }
-  
-  .hero_container h1{
-    padding: 20px;
-    margin-bottom: 15px;
-    font-size: 50px;
-    letter-spacing: 3px;
-  }
+.hero_container h1 {
+  padding: 20px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
 
-  .more_btn{
-    padding: 15px;
-    margin: 20px;
-    border-radius: 5px;
-    border: none;
-    background-color: #14B9FF;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
-  }
+.more_btn {
+  padding: 15px;
+  margin: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #14b9ff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
 
-  /* Work Section 
+/* Work Section 
   .grid-container {
     position: relative;
     display: grid;
@@ -81,11 +79,21 @@ a{
   text-decoration: none;
 } */
 
-
-/* .project_btn{
+.project_btn {
+  padding: 15px;
+  margin: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #14b9ff;
+  color: white;
   
-} */
+}
 
+.project_btn:hover {
+  background-color: #dadee0;
+  color: #14b9ff;
+  font-weight: bold;
+}
 
 /* Work Section*/
 
@@ -98,9 +106,9 @@ a{
   /* scrollbar-width: 0px; */
 }
 
-.work-section a{
+.work-section a {
   text-decoration: none;
-  background-color: #14B9FF;
+  background-color: #14b9ff;
   padding: 10px;
   border-radius: 5px;
   color: white;
@@ -119,129 +127,125 @@ a{
 }
 
 /* Contact Section */
-.contact_me{
+.contact_me {
   margin-top: 150px;
   margin-bottom: 150px;
 }
 
-
-.Contact_header{
+.Contact_header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 i {
-   padding: 5px;
-   color: #14B9FF;
+  padding: 5px;
+  color: #14b9ff;
 }
 
-input{
+input {
   margin: 5px 0 5px 0;
   padding: 10px;
   border-radius: 5px;
-  border: 0.2px solid #DADEE0;
+  border: 0.2px solid #dadee0;
   width: 500px;
-
 }
-::placeholder{
-  color: #14B9FF;
-
+::placeholder {
+  color: #14b9ff;
 }
 
-textarea{
+textarea {
   width: 500px;
   padding: 10px;
-  border: 0.2px solid #DADEE0;
+  border: 0.2px solid #dadee0;
   border-radius: 4px;
   resize: none;
 }
 
-.contact_info{
+.contact_info {
   display: flex;
   justify-content: flex-start;
 }
 
-.contact_info p{
+.contact_info p {
   padding: 5px;
 }
 
 /* Footer Section */
 
 /* About Section */
-.about_statement{
+.about_statement {
   margin: 50px;
   margin-top: 100px;
   margin-bottom: 100px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   line-height: 1.6;
 }
 
-.about_statement h1{
+.about_statement h1 {
   margin-left: 100px;
   font-size: 25px;
   font-weight: lighter;
 }
 
-.about_statement span{
-  color: #14B9FF;
+.about_statement span {
+  color: #14b9ff;
 }
 
-.about_statement p{
+.about_statement p {
   padding: 5px;
 }
 
-.experience{
+.experience {
   margin: 50px;
   margin-top: 100px;
   margin-bottom: 100px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   line-height: 1.6;
 }
 
-.experience h1{
+.experience h1 {
   margin-left: 100px;
   font-size: 25px;
   font-weight: lighter;
-  color: #14B9FF;
+  color: #14b9ff;
 }
 
-.experience_heading{
+.experience_heading {
   font-size: 20px;
   font-weight: bold;
 }
 
-.experience_heading_2{
+.experience_heading_2 {
   font-size: 20px;
   font-weight: bold;
   margin-top: 30px;
 }
 
-.spacing p{
+.spacing p {
   margin-bottom: 10px;
 }
 
-.skill_aquired{
+.skill_aquired {
   margin: 50px;
   margin-top: 100px;
   margin-bottom: 100px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   line-height: 1.6;
 }
 
-.skill_aquired h1{
+.skill_aquired h1 {
   margin-left: 100px;
   font-size: 25px;
   font-weight: lighter;
-  color: #14B9FF;
+  color: #14b9ff;
 }
-
 
 /* @keyframes gradientAnimation {
   0% {
