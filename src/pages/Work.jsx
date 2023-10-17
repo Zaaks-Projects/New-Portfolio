@@ -3,6 +3,7 @@ import "./Work.css";
 import Booka from "./images/Booka Ad.png";
 import BOC from "./images/Bowl Of Care.png";
 import Dev from "./images/devHelp.png";
+import Footer from "./Footer";
 
 const Work = () => {
   return (
@@ -109,6 +110,7 @@ const Work = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

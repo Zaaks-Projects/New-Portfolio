@@ -253,11 +253,10 @@ textarea {
   color: #14b9ff;
 }
 
-/* @keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
-} */
+.CV {
+  width: 700px;
+  min-height: auto;
+  align-self: center;
+  margin: 20px 0;
+  margin-top: 100px;
+}
