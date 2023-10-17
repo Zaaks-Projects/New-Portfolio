@@ -1,4 +1,4 @@
-.work-section h1{
+/* .work-section h1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,4 +29,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.work-section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.grid-item h3 {
+  font-weight: lighter;
+  color: #14b9ff;
+}
+
+.grid-container {
+  padding: 30px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  margin-top: 20px;
 }

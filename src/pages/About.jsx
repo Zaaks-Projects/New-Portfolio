@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <>
-      <div className="about_statement" data-aos="fade-down">
+      <div className='about_statement' data-aos='fade-down'>
         <div>
           <h1>Zaakirah Abrams</h1>
         </div>
@@ -35,12 +35,12 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="experience" data-aos="fade-up">
+      <div className='experience' data-aos='fade-up'>
         <div>
           <h1>Experience</h1>
         </div>
         <div>
-          <p className="experience_heading">CapaCiti</p>
+          <p className='experience_heading'>CapaCiti</p>
           <p>
             <span>Sofware Developer Intern</span>
           </p>
@@ -50,7 +50,7 @@ const About = () => {
             introduction to coding
           </p>
           <div>
-            <p className="experience_heading_2">Younglings</p>
+            <p className='experience_heading_2'>Younglings</p>
           </div>
           <p>
             <span>Front-end Developer Intern</span>
@@ -61,14 +61,14 @@ const About = () => {
             based side of the internship
           </p>
           <div>
-            <p className="experience_heading_2">Younglings</p>
+            <p className='experience_heading_2'>Younglings</p>
           </div>
           <p>
             <span>Design Intern</span>
           </p>
           <p>Feb 2021 - Mar 2022</p>
           <div>
-            <p className="experience_heading_2">Skoach</p>
+            <p className='experience_heading_2'>Skoach</p>
           </div>
           <p>
             <span>UI Design Intern</span>
@@ -77,22 +77,22 @@ const About = () => {
         </div>
       </div>
       <div
-        className="experience"
-        data-aos="fade-zoom-in"
-        data-aos-easing="ease-in-back"
-        data-aos-delay="300"
-        data-aos-offset="0"
+        className='experience'
+        data-aos='fade-zoom-in'
+        data-aos-easing='ease-in-back'
+        data-aos-delay='300'
+        data-aos-offset='0'
       >
         <div>
           <h1>Softwares</h1>
         </div>
-        <div className="spacing">
+        <div className='spacing'>
           <span>Designing and Prototyping</span>
           <p>Skill 1</p>
           <p>Skill 2</p>
           <p>Skill 3</p>
           <p>Skill 4</p>
-          <div className="line"></div>
+          <div className='line'></div>
           <span>Wireframing and User Flows</span>
           <p>Skill 5</p>
           <p>Skill 6</p>
@@ -100,16 +100,16 @@ const About = () => {
         </div>
       </div>
       <div
-        className="experience"
-        data-aos="fade-zoom-in"
-        data-aos-easing="ease-in-back"
-        data-aos-delay="300"
-        data-aos-offset="0"
+        className='experience'
+        data-aos='fade-zoom-in'
+        data-aos-easing='ease-in-back'
+        data-aos-delay='300'
+        data-aos-offset='0'
       >
         <div>
           <h1>Key Skills</h1>
         </div>
-        <div className="spacing">
+        <div className='spacing'>
           <p>
             Here are some of the skills that i have aquired through my journey
           </p>
