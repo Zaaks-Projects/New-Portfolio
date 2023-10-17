@@ -254,9 +254,8 @@ textarea {
 }
 
 .CV {
-  width: 700px;
-  min-height: auto;
-  align-self: center;
-  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 100px;
 }
