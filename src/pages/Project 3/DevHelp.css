@@ -49,3 +49,49 @@
   padding-top: 10px;
   margin: 6px;
 }
+
+.research_section_devHelp {
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.research_section_devHelp p {
+  margin-top: 10px;
+}
+
+.discover_phase_devHelp {
+  margin: 50px;
+  margin-top: 100px;
+}
+
+.discover_phase_devHelp h1 {
+  color: #9b0000;
+  font-size: 25px;
+}
+
+.metrics_devHelp {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  line-height: 1.6;
+}
+
+.metrics_devHelp h1 {
+  font-size: 25px;
+  font-weight: lighter;
+  color: #9b0000;
+}
+.persona {
+  /* width: 90%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.persona img {
+  max-width: 100%;
+  max-height: 100%;
+}
