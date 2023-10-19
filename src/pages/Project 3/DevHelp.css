@@ -1,0 +1,51 @@
+/* span {
+  color: #9b0000;
+} */
+
+.header_devHelp {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./devHelp\ Background.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.information_section_devHelp {
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.information_section_devHelp p {
+  padding-top: 5px;
+  line-height: 1.2;
+}
+
+.information_section_devHelp span {
+  color: #9b0000;
+  font-weight: bold;
+}
+
+.project_overview_devHelp {
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  line-height: 1.6;
+}
+
+.project_overview_devHelp h1 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.line_devHelp {
+  border-top: 1px solid #9b0000;
+  width: 90%;
+  padding-top: 10px;
+  margin: 6px;
+}
